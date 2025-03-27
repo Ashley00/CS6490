@@ -3,14 +3,20 @@ This project can be break down to three parts: 1. Extended Needham Schroeder imp
 
 ## Environment Setup
 In order to use 3DES, need pycryptodome library in python. 
+
 In CADE run: `pip3 install pycryptodome --no-cache-dir`
 
 ## Structure of the project
 1.kdc.py, alice.py, bob.py is using extended NS protocol.
+
 2.kdc2.py, alice2.py, bob2.py, trudy.py is using original NS protocol.
+
 3.util.py have implementations for 3DES related decryption and encryption functions.
+
 4.extendedNS.txt show one successful authentication for extended NS protocol.
+
 5.originalNS.txt show the output for the reflection attack
+
 6.diffCBCAndECB.txt show the output for last two messages for CBC and ECB mode.
 
 ## Generate shared key
